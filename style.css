@@ -1,0 +1,54 @@
+body {
+  background-color: dimgrey;
+}
+
+.monitor {
+  margin-left: 25%;
+  justify-content: center;
+  max-width: 50%;
+  background-color: rgb(9, 83, 80);
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 5px 1px;
+  margin-bottom: 10px;
+}
+
+p,
+output {
+  color: gainsboro;
+  text-align: center;
+}
+
+h1 {
+  color: gainsboro;
+  text-align: center;
+}
+
+.containerRegler {
+  display: flex;
+  background-color: cadetblue;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#nahrung {
+  margin-left: 16px;
+  margin-top: 15px;
+}
+
+#holz {
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+#stein {
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+#stahl {
+  margin-left: 40px;
+  margin-top: 15px;
+}

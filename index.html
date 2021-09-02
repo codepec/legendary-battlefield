@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teilgefecht</title>
+    <meta charset ="utf-8">
+    <script src="skript.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Teilgefecht</h1>
+   
+    <!-- <button id="startButton" onclick="spieleEineRunde()">Starte dein Abenteuer.</button> -->
+   <div class="monitor" onclick="spieleEineRunde()">
+   
+    <p id="monitor">Zum Starten klicken!</p>
+     </div>
+ <!-- Monitor Start
+    <div class="monitor" onclick="spieleEineRunde()">
+      <p id="monitor"></p>
+    </div>
+
+   
+
+    <div class="monitor">
+      <p id="monitor"></p>
+
+     Regler Start-->
+
+      <p>Ihre Eingabe:</p>
+
+      <div class="containerRegler">
+        <p>Nahrung:</p>
+        <form oninput="x.value=parseInt(nahrung.value)">
+          <input
+            type="range"
+            id="nahrung"
+            name="nahrung"
+            min="0"
+            max="100"
+            value="0"
+            step="10"
+          />
+
+          <label for="nahrung"></label>
+          <output name="x" for="nahrung">0</output>
+        </form>
+      </div>
+
+      <div class="containerRegler">
+        <p>Holz:</p>
+        <form oninput="x.value=parseInt(holz.value)">
+          <input
+            type="range"
+            id="holz"
+            name="holz"
+            min="0"
+            max="holz.value"
+            value="0"
+            step="10"
+          />
+          <label for="holz"></label>
+          <output name="x" for="holz">0</output>
+        </form>
+      </div>
+
+      <div class="containerRegler">
+        <p>Stein:</p>
+        <input
+          type="range"
+          id="stein"
+          name="stein"
+          min="0"
+          max="100"
+          value="90"
+          step="10"
+        />
+        <label for="stein"></label>
+      </div>
+
+      <div class="containerRegler">
+        <p>Stahl:</p>
+        <input
+          type="range"
+          id="stahl"
+          name="stahl"
+          min="0"
+          max="100"
+          value="90"
+          step="10"
+        />
+        <label for="stahl"></label>
+      </div>
+
+      <!-- Regler Ende -->
+    </div>
+
+    <!-- Monitor Ende-->
+
+    <button style="padding: 50px" id="button1">Waffe ziehen</button>
+  </body>
+
+  <script>
+    //erstelleBericht();
+  </script>
+</html>
